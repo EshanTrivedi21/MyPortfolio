@@ -1,0 +1,127 @@
+body{background-image: url('Images/BG.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 0%;
+    margin: 0%;}
+
+hr{border-style:none;
+   border-top-style:solid;
+   border-color:black;
+   border-width:3px;}
+
+.header{font-size:120%;
+         color:black;
+         background-color:#0700006b;
+         transition-duration: 0.5s;}
+
+.header:hover{background-color: rgba(0, 0, 0, 0.753);
+              color: #f097e7;}
+
+.introimg{position: relative;
+          border: 2px solid #f097e7;
+          border-radius: 5%;
+          transition-duration: 1.5s;
+          outline: 2px solid black;}
+
+.introimg:hover{transform: scale(1.025);
+                border-radius: 25%;}
+
+.homeimg{position: relative;
+          border: 2px solid #f097e7;
+          border-radius: 5%;
+          transition-duration: 1.5s;
+          outline: 2px solid black;}
+              
+.homeimg:hover{transform: scale(1.1);
+               border-radius: 25%;}
+      
+#skills{font-size:20px;
+        width:600px;
+        height:210px;
+        text-align: left;
+        vertical-align: top;
+        padding:5px;}
+
+#contact{width:600px;
+        height:100px;
+        text-align: left;
+        vertical-align: top;
+        padding:5px;}
+
+table{width:1250px;
+      height:500px;
+      text-align: left;
+      vertical-align: top;
+      padding:15px;}
+
+th {border:3px solid;
+    background-color: #f097e7;
+    color: black;}
+
+.traits{font-size: 20px;}
+.name{font-size:65px;
+      text-shadow: 3px 3px 2px #f097e7;}
+
+.about{font-size: 30px;}
+.aboutnew{font-size: 24px;}
+.education{font-size: 22px;}
+.title{font-size: 25px;}
+
+.button{background-color:#f097e7;
+        font-size: 12px;
+        border:black;
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 7px 30px;
+        transition-duration: 0.5s;}
+
+.button:hover{background-color: black;
+              color: #f097e7;}
+
+.resumebutton{background-color:#f097e7;
+            font-size: 15px;
+            border:black;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 7px 75px;
+            transition-duration: 0.5s;}
+                
+.resumebutton:hover{background-color: black;
+                  color: #f097e7;}
+
+.footer{font-size:25px;
+        color:#f097e7;
+        background-color:#0700006b;
+        transition-duration: 0.5s;}
+
+.footer:hover{background-color: rgba(0, 0, 0, 0.753);
+              color: #f097e7;}
+
+.fa-brands{font-size: 25px;
+             color: #f097e7;
+             transition-duration: 1s;
+             margin-right: 15px;
+             float:right;}
+
+.fa-brands:hover{transform: scale(1.05);
+                   color: white;}
+
+.fa-solid{font-size: 25px;
+           color: #f097e7;
+           transition-duration: 1s;
+           margin-right: 15px;
+           float:right;}
+           
+.fa-solid:hover{transform: scale(1.05);
+                 color: white;}
+
+.solids{font-size: 25px;
+        color: #f097e7;
+        transition-duration: 1s;
+        margin-left: 30px;
+        margin-right: 150px;
+        float:left;}
+                        
+.solids:hover{transform: scale(1.05);
+              color: white;}
